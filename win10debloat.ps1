@@ -23,6 +23,9 @@
 #	- Added Install Programs
 #	- Added Debloat Microsoft Store Apps
 #
+#	Jaybubba17 Changes:
+#	- Install programs
+#
 ##########
 # Default preset
 $tweaks = @(
@@ -31,7 +34,7 @@ $tweaks = @(
 
 	### External Program Setup
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
-	"InstallAdobe",
+	#"InstallAdobe",
 	"Install7Zip",
 	"InstallNotepadplusplus",
 	"InstallMediaPlayerClassic",
